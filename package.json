@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "date-fns": "^2.17.0",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.2",
     "jslint": "^0.12.1",
