@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Link from "next/link"
 
-// import styles from '../styles/Home.module.css'
-import styles from '../styles/index.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Layout from './components/Layout';
 import { getSortedPostsData } from "./lib/posts"
@@ -23,7 +21,7 @@ export default function Home({allPostsData}) {
       <Layout home>
         <Head><title>Main Page</title></Head>
         <section className={utilStyles.headingMd}>
-           정보보안 전문가를 꿈꾸고 있는 학생입니다! 
+           Front-end 지존이 되고 싶습니다.
            </section>
         <section 
           className={`
