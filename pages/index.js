@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Link from "next/link"
 
-import utilStyles from "./styles/utils.module.css"
-import Layout from './components/Layout';
-import { getSortedPostsData } from "./lib/posts"
-import Date from "./components/date"
+import utilStyles from "../styles/utils.module.css"
+import Layout from '../components/Layout';
+import { getSortedPostsData } from "../lib/posts"
+import Date from "../components/date"
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -22,8 +22,8 @@ export default function Home({allPostsData}) {
       <Layout home>
         <Head><title>Main Page</title></Head>
         <section className={utilStyles.headingMd}>
-           Front-end 지존이 되고 싶습니다.
-           </section>
+           Front-end z.zone이 되고 싶습니다.
+        </section>
         <section 
           className={`
           ${utilStyles.headingMd} ${utilStyles.padding1px}
