@@ -23,3 +23,5 @@ Layout 컴포넌트를 만들고 모든 컴포넌트 상단에 profile Layout �
 Next.js를 사용하는 이유는 Pre-rendering을 쉽게 가능하게 해주며 Data Fetching한 내용을 바탕으로 Pre-rendering이 가능하게 된다.
 
 React는 Script를 이용하여 아무것도 없는 상태에서 JS를 이용하여 Dom을 그리는 방식을 채택한다. 하지만 Next.js는 React를 사용하지만 컨텐츠에 대해 HTML을 일부 완성하여 전송하기 때문에 SEO 최적화에 대해 강점을 가지게 된다.
+
+" 웹팩 에러로 디플로이 실패
